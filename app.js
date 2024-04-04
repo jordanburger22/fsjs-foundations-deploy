@@ -12,18 +12,19 @@ themeButton.addEventListener('click', function(){
         document.body.style.color = '#FFFFFF'
         blogBtn.style.color = '#0F0E12'
         blogBtn.style.backgroundColor = '#FFFFFF'
-        bookmark.src = '/images/bookmark-black.jpg'
+        bookmark.src = 'images/bookmark-black.jpg'
         themeButton.style.backgroundColor = '#D8D6E1'
-        moon.src = '/images/moon-purple.png'
-
+        moon.src = 'images/moon-purple.png'
+        console.log('darkmode')
     } else {
         document.body.style.backgroundColor = 'white'
         document.body.style.color = '#0F0E12'
         blogBtn.style.color = '#FFFFFF'
         blogBtn.style.backgroundColor = '#0F0E12'
-        bookmark.src = '/images/bookmark-white.png'
+        bookmark.src = 'images/bookmark-white.png'
         themeButton.style.backgroundColor = '#FFFFFF'
-        moon.src = '/images/moon-black.jpg'
+        moon.src = 'images/moon-black.jpg'
+        console.log('lightmode')
     }
 })
 
